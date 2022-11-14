@@ -11,6 +11,11 @@ namespace blog.tools
 {
     internal class ToolsInternet
     {
+    /// <summary>
+    /// يتم استدعاء هذه الداله لتاكد من وجود اتصال انترنت  
+    /// </summary>
+    /// <param name="url"></param>
+    /// <returns></returns>
         public bool GetCanConnectTo(string url = "https://google.com")
         {
             try
