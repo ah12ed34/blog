@@ -14,10 +14,7 @@ namespace blog.focus
 {
     internal class FConnect
     {
-        /// <summary>
-        /// الاتصال بالانترنت 
-        /// 
-        /// </summary>
+       
         ToolsInternet TInternet = new ToolsInternet();
         ToolsMessages TMessage = new ToolsMessages();
         DataTable dataTable = new DataTable();
